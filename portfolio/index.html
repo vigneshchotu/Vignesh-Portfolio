@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>VKHM.CYBER
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vignesh K H M | Cybersecurity Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <canvas id="bg-canvas"></canvas>
+
+    <nav>
+        <a href="#" class="logo" style="text-decoration: none; display: flex; align-items: center; gap: 10px;">
+            <i class="fas fa-shield-halved" style="font-size: 1.8rem; color: var(--primary);"></i>
+            <span><span style="color: var(--text-main);">VKHM</span><span
+                    style="color: var(--secondary);">.CYBER</span></span>
+        </a>
+        <button class="menu-btn" id="menu-btn" aria-label="Toggle Menu">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="nav-links" id="nav-links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#certifications">Certs</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-container">
+                <div class="hero-text-content" data-reveal>
+                    <h1>Hi I'm Vignesh K H M</h1>
+                    <h2>Cybersecurity Analyst | SOC Operations Level 1| Cloud Security </h2>
+
+                    <p>I help organizations detect, investigate, and contain threats—fast. As a SOC-focused Cyber
+                        Security Analyst, I turn noisy logs into clear stories, map activity to MITRE ATT&CK, and
+                        automate the repetitive with Python & Bash. Blue Team at heart, Red Team curious. Familiar with
+                        cloud security services, auditing, and monitoring the cloud environment.</p>
+
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">4+</span>
+                            <span class="stat-label">Certifications</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Security Tools</span>
+                        </div>
+                    </div>
+
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn-outline"><i class="fas fa-envelope"></i> Get In Touch</a>
+                        <a href="#projects" class="btn-outline"><i class="fas fa-code"></i> View Projects</a>
+                        <a href="vignesh resume .pdf" class="btn-outline" download><i class="fas fa-file-pdf"></i>
+                            Download Resume</a>
+                    </div>
+                </div>
+
+                <div class="hero-profile" data-reveal>
+                    <div class="glass-card profile-card">
+                        <div class="profile-image-container">
+                            <img src="professional.jpeg" alt="Vignesh K H M" class="profile-img">
+                        </div>
+                        <h3>Cybersecurity & Cloud Security Analyst</h3>
+                        <p class="profile-subtitle">SOC Operations & Threat Detection</p>
+
+                        <div class="hero-badges">
+                            <span class="badge">CompTIA Security+</span>
+                            <span class="badge">Google Cybersecurity</span>
+                            <span class="badge">Microsoft Azure Fundamentals</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2 class="section-title" data-reveal>About Me</h2>
+            <div class="about-content glass-card" data-reveal>
+                <div class="about-text">
+                    <p>I am a cybersecurity enthusiast pursuing a Bachelor's degree in Computer Science, with a strong
+                        focus on Blue Team operations, threat detection, and cloud security. I hold the CompTIA
+                        Security+ and Microsoft Azure Fundamentals certifications, which have built my foundation in
+                        network security, risk management, and cloud security practices.</p>
+                    <p style="margin-top: 1rem;">I have completed the TryHackMe SOC Level 1 learning path along with
+                        multiple hands-on labs, gaining practical experience in log analysis, threat hunting, and
+                        security monitoring. I am skilled in tools such as Wireshark, Nmap, and SIEM platforms.</p>
+                    <p style="margin-top: 1rem;">I am passionate about SOC workflows, incident response, and securing
+                        systems, and I am continuously building my skills and projects to grow as a cybersecurity
+                        professional.</p>
+                </div>
+                <div class="about-stats terminal-text">
+                    [SYSTEM_RUNNING]<br>
+                    > Location: Adoni, Andhra Pradesh, India<br>
+                    > Status: Cybersecurity Student<br>
+                    > Certification: CompTIA Security+, Microsoft Azure Fundamentals<br>
+                    > Focus: SOC Analysis | Cloud Security | Network Security Analyst
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2 class="section-title" data-reveal>Core Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category glass-card" data-reveal>
+                    <h3><i class="fas fa-shield-alt"></i> Cybersecurity Tools</h3>
+                    <div class="skill-items">
+                        <span class="skill-badge">Wireshark</span>
+                        <span class="skill-badge">Nmap</span>
+                        <span class="skill-badge">Metasploit</span>
+                        <span class="skill-badge">Burp Suite</span>
+                        <span class="skill-badge">Splunk</span>
+                        <span class="skill-badge">OpenVAS</span>
+                        <span class="skill-badge">NIKTO</span>
+                        <span class="skill-badge">Snort IDS</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card" data-reveal>
+                    <h3><i class="fas fa-code"></i> Programming</h3>
+                    <div class="skill-items">
+                        <span class="skill-badge">Python</span>
+                        <span class="skill-badge">Bash</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card" data-reveal>
+                    <h3><i class="fas fa-brain"></i> Concepts</h3>
+                    <div class="skill-items">
+                        <span class="skill-badge">Network Security</span>
+                        <span class="skill-badge">Threat Detection</span>
+                        <span class="skill-badge">Incident Response</span>
+                        <span class="skill-badge">SIEM Monitoring</span>
+                        <span class="skill-badge">Vulnerability Assessment</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card" data-reveal>
+                    <h3><i class="fas fa-sitemap"></i> Frameworks</h3>
+                    <div class="skill-items">
+                        <span class="skill-badge">OWASP</span>
+                        <span class="skill-badge">ISO/IEC 27001:2022</span>
+                        <span class="skill-badge">MITRE ATT&CK</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card" data-reveal>
+                    <h3><i class="fab fa-linux"></i> Operating Systems</h3>
+                    <div class="skill-items">
+                        <span class="skill-badge">Kali Linux</span>
+                        <span class="skill-badge">Ubuntu</span>
+                        <span class="skill-badge">Windows</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience">
+            <h2 class="section-title" data-reveal>Professional Experience</h2>
+            <div class="experience-timeline">
+
+                <!-- Experience 1 -->
+                <div class="experience-card glass-card" data-reveal>
+                    <div class="exp-header">
+                        <h3>Cyber Security Intern</h3>
+                        <div class="exp-meta">
+                            <span class="company">Future Interns</span>
+                            <span class="date">Nov 2025 - Dec 2025</span>
+                        </div>
+                    </div>
+                    <div class="exp-details">
+                        <ul>
+                            <li><i class="fas fa-chevron-right"></i> Performed Web Application Security Testing
+                                identifying SQL injection, XSS, and authentication flaws.</li>
+                            <li><i class="fas fa-chevron-right"></i> Built Password Strength Analyzer Tool using Python
+                                with comprehensive algorithm documentation.</li>
+                            <li><i class="fas fa-chevron-right"></i> Analyzed and responded to simulated cybersecurity
+                                incidents with detailed IR reports.</li>
+                            <li><i class="fas fa-chevron-right"></i> Utilized Splunk and Wireshark for incident analysis
+                                and evidence collection.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Experience 2 -->
+                <div class="experience-card glass-card" data-reveal>
+                    <div class="exp-header">
+                        <h3>Summer Training</h3>
+                        <div class="exp-meta">
+                            <span class="company">Cyber Security & Ethical Hacking (Board Infinity)</span>
+                            <span class="date">Jun 2025 - Jul 2025</span>
+                        </div>
+                    </div>
+                    <div class="exp-details">
+                        <ul>
+                            <li><i class="fas fa-chevron-right"></i> Practical exposure to vulnerability assessment, SQL
+                                injection concepts, and network attack techniques.</li>
+                            <li><i class="fas fa-chevron-right"></i> Gained hands-on exposure to web application
+                                security testing, including identifying server-side weaknesses and data access issues.
+                            </li>
+                            <li><i class="fas fa-chevron-right"></i> Acquired practical knowledge of SQL injection
+                                detection and exploitation concepts to understand database security risks.</li>
+                            <li><i class="fas fa-chevron-right"></i> Learned web reconnaissance and vulnerability
+                                identification techniques using industry-standard security assessment tools.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Experience 3 -->
+                <div class="experience-card glass-card" data-reveal>
+                    <div class="exp-header">
+                        <h3>IAM Developer - Virtual Experience</h3>
+                        <div class="exp-meta">
+                            <span class="company">Tata Consultancy Services</span>
+                            <span class="date">Dec 2024 - Jan 2025</span>
+                        </div>
+                    </div>
+                    <div class="exp-details">
+                        <ul>
+                            <li><i class="fas fa-chevron-right"></i> Completed job simulation involving Identity and
+                                Access Management (IAM).</li>
+                            <li><i class="fas fa-chevron-right"></i> Acquired expertise in IAM principles and
+                                cybersecurity best practices.</li>
+                            <li><i class="fas fa-chevron-right"></i> Delivered comprehensive documentation showcasing
+                                technical communication skills.</li>
+                            <li><i class="fas fa-chevron-right"></i> Collaborated with Cybersecurity Consulting team on
+                                strategic business alignment.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2 class="section-title" data-reveal>Featured Projects</h2>
+            <div class="projects-grid">
+
+                <div class="project-card glass-card" data-reveal>
+                    <h3>🛡️ Portable Log Analyzer</h3>
+                    <p class="project-domain"
+                        style="color: var(--secondary); font-size: 0.9rem; margin-bottom: 0.5rem;">
+                        <strong>Domain:</strong> Network Security / Security Operations (SOC)
+                    </p>
+                    <ul class="project-details"
+                        style="margin-bottom: 1rem; padding-left: 1.2rem; color: var(--text-dim); font-size: 0.9rem; line-height: 1.5;">
+                        <li style="margin-bottom: 0.5rem;">Developed a lightweight and portable log analysis tool to
+                            assist in security investigations.</li>
+                        <li style="margin-bottom: 0.5rem;">Implemented support for multiple log formats including JSON,
+                            CSV, and TXT for unified analysis.</li>
+                        <li style="margin-bottom: 0.5rem;">Designed advanced filtering and search features to quickly
+                            identify suspicious events.</li>
+                        <li style="margin-bottom: 0.5rem;">Enabled time-based analysis to track user activity and
+                            potential threats.</li>
+                        <li style="margin-bottom: 0.5rem;">Built as a browser-based tool requiring no installation,
+                            ensuring easy accessibility.</li>
+                        <li style="margin-bottom: 0.5rem;">Improved efficiency of log analysis for SOC analysts and
+                            incident response workflows.</li>
+                    </ul>
+                    <div class="project-tags">
+                        <span class="project-tag">JavaScript</span>
+                        <span class="project-tag">JSON</span>
+                        <span class="project-tag">CSV</span>
+                        <span class="project-tag">TXT</span>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card" data-reveal>
+                    <h3>☁️ AWS IAM Least Privilege Analyzer</h3>
+                    <p class="project-domain"
+                        style="color: var(--secondary); font-size: 0.9rem; margin-bottom: 0.5rem;">
+                        <strong>Domain:</strong> Cloud Security
+                    </p>
+                    <ul class="project-details"
+                        style="margin-bottom: 1rem; padding-left: 1.2rem; color: var(--text-dim); font-size: 0.9rem; line-height: 1.5;">
+                        <li style="margin-bottom: 0.5rem;">Built a cloud security tool to analyze AWS IAM policies and
+                            identify over-permissive access.</li>
+                        <li style="margin-bottom: 0.5rem;">Implemented automated checks to detect wildcard permissions
+                            and excessive privileges.</li>
+                        <li style="margin-bottom: 0.5rem;">Used Boto3 to interact with AWS services and audit IAM roles
+                            and policies.</li>
+                        <li style="margin-bottom: 0.5rem;">Applied the Principle of Least Privilege to recommend secure
+                            policy configurations.</li>
+                        <li style="margin-bottom: 0.5rem;">Generated detailed audit reports for better visibility and
+                            governance.</li>
+                        <li style="margin-bottom: 0.5rem;">Enhanced cloud security posture by reducing unnecessary
+                            access risks.</li>
+                    </ul>
+                    <div class="project-tags">
+                        <span class="project-tag">Python</span>
+                        <span class="project-tag">AWS IAM</span>
+                        <span class="project-tag">Boto3</span>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card" data-reveal>
+                    <h3>📋 Information Security Auditor</h3>
+                    <p class="project-domain"
+                        style="color: var(--secondary); font-size: 0.9rem; margin-bottom: 0.5rem;">
+                        <strong>Domain:</strong> Governance, Risk & Compliance (GRC)
+                    </p>
+                    <ul class="project-details"
+                        style="margin-bottom: 1rem; padding-left: 1.2rem; color: var(--text-dim); font-size: 0.9rem; line-height: 1.5;">
+                        <li style="margin-bottom: 0.5rem;">Conducted an internal audit based on ISO/IEC 27001:2022
+                            security standards.</li>
+                        <li style="margin-bottom: 0.5rem;">Evaluated organizational policies, access controls, and risk
+                            management practices.</li>
+                        <li style="margin-bottom: 0.5rem;">Identified security gaps, non-conformities, and areas for
+                            improvement.</li>
+                        <li style="margin-bottom: 0.5rem;">Performed risk assessments aligned with industry compliance
+                            requirements.</li>
+                        <li style="margin-bottom: 0.5rem;">Prepared detailed audit reports with corrective action
+                            recommendations.</li>
+                        <li style="margin-bottom: 0.5rem;">Strengthened understanding of governance, risk, and
+                            compliance practices.</li>
+                    </ul>
+                    <div class="project-tags">
+                        <span class="project-tag">ISO/IEC 27001:2022</span>
+                        <span class="project-tag">Risk Assessment</span>
+                        <span class="project-tag">Audit Checklists</span>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card" data-reveal>
+                    <h3>🌐 Web App Security Assessment</h3>
+                    <p class="project-domain"
+                        style="color: var(--secondary); font-size: 0.9rem; margin-bottom: 0.5rem;">
+                        <strong>Domain:</strong> Web Security / Application Security
+                    </p>
+                    <ul class="project-details"
+                        style="margin-bottom: 1rem; padding-left: 1.2rem; color: var(--text-dim); font-size: 0.9rem; line-height: 1.5;">
+                        <li style="margin-bottom: 0.5rem;">Performed a comprehensive security assessment based on OWASP
+                            Top 10 vulnerabilities.</li>
+                        <li style="margin-bottom: 0.5rem;">Identified issues such as SQL Injection, Cross-Site Scripting
+                            (XSS), and CSRF.</li>
+                        <li style="margin-bottom: 0.5rem;">Used tools like SQLMap and Nikto alongside manual testing
+                            techniques.</li>
+                        <li style="margin-bottom: 0.5rem;">Analyzed session management, input validation, and security
+                            misconfigurations.</li>
+                        <li style="margin-bottom: 0.5rem;">Documented vulnerabilities with severity ratings and impact
+                            analysis.</li>
+                        <li style="margin-bottom: 0.5rem;">Provided remediation strategies to improve overall
+                            application security.</li>
+                    </ul>
+                    <div class="project-tags">
+                        <span class="project-tag">OWASP Top 10</span>
+                        <span class="project-tag">SQLMap</span>
+                        <span class="project-tag">Nikto</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Certifications -->
+        <section id="certifications">
+            <h2 class="section-title" data-reveal>Certifications</h2>
+            <div class="cert-grid">
+                <div class="cert-card glass-card" data-reveal>
+                    <img src="Security+-png.png" alt="CompTIA Security+" class="cert-icon">
+                    <h3>CompTIA Security+</h3>
+                    <p>Globally recognized cybersecurity validation.</p>
+                </div>
+                <div class="cert-card glass-card" data-reveal>
+                    <img src="microsoft.png" alt="Microsoft Azure" class="cert-icon">
+                    <h3>AZ-900 Microsoft Azure Fundamentals</h3>
+                    <p>Cloud concepts, architecture, and core Azure services.</p>
+                </div>
+                <div class="cert-card glass-card" data-reveal>
+                    <img src="google.png" alt="Google" class="cert-icon">
+                    <h3>Google Cybersecurity</h3>
+                    <p>Planned - Expanding security horizons.</p>
+                </div>
+                <div class="cert-card glass-card" data-reveal>
+                    <img src="try hack me .png" alt="TryHackMe" class="cert-icon">
+                    <h3>THM SOC Level 1</h3>
+                    <p>In Progress - Mastering SOC fundamentals.</p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2 class="section-title" data-reveal>Get In Touch</h2>
+            <div class="contact-container glass-card" data-reveal>
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>Feel free to reach out for collaborations or opportunities.</p>
+                    <div class="social-links" style="justify-content: flex-start;">
+                        <a href="https://github.com/vigneshchotu" class="social-icon" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/vignesh-k-h-m-084902254/" class="social-icon"
+                            target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn-outline"
+                            style="width: 100%; justify-content: center; cursor: pointer;">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                    <p id="form-status"
+                        style="display: none; margin-top: 1rem; font-size: 0.9rem; text-align: center; color: var(--primary);">
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Vignesh K H M | Cybersecurity Portfolio</p>
+    </footer>
+
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
